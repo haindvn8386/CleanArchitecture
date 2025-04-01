@@ -46,7 +46,7 @@ SQL Server
 
 2️⃣ Clone the Repository
 
-git clone [[https://github.com/your-username/your-repo-name](https://github.com/haindvn8386/CleanArchitecture.git)](https://github.com/haindvn8386/CleanArchitecture.git)
+git clone https://github.com/haindvn8386/CleanArchitecture.git
 cd your-repo-name
 
 3️⃣ Configure the Database
