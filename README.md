@@ -8,7 +8,7 @@
 
 A modern **Product & Order Management API** built with **.NET 8** using **Microservices Architecture**. This project showcases a scalable and distributed back-end system for managing products and orders, leveraging **Docker** for containerization and **Apache Kafka** for event-driven communication. Hosted on GitHub as part of my portfolio, it demonstrates my expertise in microservices design, containerization, and asynchronous messaging.
 
-## Table of Contents
+## ☸️Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -21,7 +21,7 @@ A modern **Product & Order Management API** built with **.NET 8** using **Micros
 - [License](#license)
 - [Contact](#contact)
 
-## Project Overview
+## 🏗️Project Overview
 This is a back-end project designed as a microservices-based system for managing **products** and **orders**. It consists of two main services: **Product Service** and **Order Service**, communicating asynchronously via Kafka. The project uses .NET 8, Docker for containerization, and SQLite as a lightweight database (configurable for other DBMS). It’s a practical example of modern distributed systems, built to highlight my skills in microservices architecture and DevOps practices.
 
 Goals of this project:
@@ -29,14 +29,14 @@ Goals of this project:
 - Showcase integration of event-driven architecture with Kafka.
 - Highlight containerization skills using Docker.
 
-## Features
+## 🛠️Features
 - **Product Service**: CRUD operations for managing products.
 - **Order Service**: Create and retrieve orders, linked to products.
 - **Event-Driven Communication**: Uses Kafka to publish and consume events (e.g., order creation triggers stock updates).
 - **Containerization**: Services run in Docker containers for easy deployment.
 - **Scalability**: Microservices architecture enables independent scaling of services.
 
-## Technologies Used
+## 🗝️Technologies Used
 - **.NET 8.0**: Core framework for building microservices.
 - **ASP.NET Core**: RESTful API framework for each service.
 - **Entity Framework Core**: ORM for database operations.
@@ -46,7 +46,7 @@ Goals of this project:
 - **Confluent.Kafka**: .NET client for Kafka integration.
 - **Swagger**: API documentation and testing.
 
-## Architecture
+## 🏚️Architecture
 The project follows **Microservices Architecture** with the following components:
 - **Product Service**: Manages product data (e.g., name, price, stock). Publishes events to Kafka when product stock changes.
 - **Order Service**: Handles order creation and retrieval. Consumes events from Kafka to update order status based on product availability.
@@ -55,17 +55,12 @@ The project follows **Microservices Architecture** with the following components
 
 This architecture ensures loose coupling, scalability, and fault tolerance.
 
-## Setup Instructions
+## 💽Setup Instructions
 ### Prerequisites
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Git](https://git-scm.com/)
 - Optional: [Visual Studio 2022](https://visualstudio.microsoft.com/)
-
-### Cloning the Repository
-```bash
-git clone https://github.com/[YourGitHubUsername]/ProductOrderMicroservices.git
-cd ProductOrderMicroservices
 
 ### Configure the Database
 Update appsettings.json with your SQL Server connection string:
@@ -74,7 +69,7 @@ Update appsettings.json with your SQL Server connection string:
   "DefaultConnection": "Server=localhost;Database=ProductDb;User Id=sa;Password=your_password;"
 }
 
-Run database migrations:
+### Run database migrations:
 
 dotnet ef database update
 
@@ -82,7 +77,7 @@ dotnet ef database update
 
 dotnet run
 
-### API Documentation
+### 📖API Documentation
 
 Open Swagger UI: http://localhost:5000/swagger
 
@@ -105,10 +100,16 @@ Open Swagger UI: http://localhost:5000/swagger
 ✅ Docker support for easy deployment
 ✅ SQL Server with Entity Framework Core
 
-🛠 Contributing
+
+### 🐰Cloning the Repository
+git clone https://github.com/haindvn8386/CleanArchitecture.git
+cd ProductOrderMicroservices
+
+
+## 🛠 Contributing
 
 Feel free to contribute by submitting issues or pull requests.
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
