@@ -103,7 +103,7 @@ Open Swagger UI: http://localhost:5000/swagger
 
 ### 🐰Cloning the Repository
 git clone https://github.com/haindvn8386/CleanArchitecture.git
-cd ProductOrderMicroservices
+cd CleanArchitecture
 
 
 ## 🛠 Contributing
